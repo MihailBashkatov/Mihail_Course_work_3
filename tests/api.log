@@ -1,0 +1,375 @@
+2022-09-10 23:01:32,991 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-10 23:01:33,755 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-10 23:01:33,833 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-10 23:03:23,936 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-10 23:03:24,763 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-10 23:03:24,841 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-10 23:03:24,934 :  ERROR : Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 25, in single_post_json_
+    posts = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-10 23:04:02,462 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-10 23:04:03,289 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-10 23:04:03,351 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-10 23:04:03,414 :  ERROR : Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 25, in single_post_json_
+    posts = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-10 23:04:03,492 :  ERROR : Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 25, in single_post_json_
+    posts = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 00:38:27,809 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 00:38:28,589 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 00:38:28,651 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 00:38:28,714 :  ERROR : Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 25, in single_post_json_
+    posts = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 00:38:28,776 :  ERROR : Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 25, in single_post_json_
+    posts = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 00:39:29,131 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 19, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 00:53:44,310 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 20, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 00:53:45,106 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 20, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 00:53:45,168 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 20, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 00:57:54,628 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 20, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 00:57:55,423 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 20, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 00:57:55,486 :  ERROR : Exception on /api/posts/ [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 20, in posts_json
+    posts_all = get_posts_all(PATH)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 6, in get_posts_all
+    with open(path, 'r', encoding="UTF-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+2022-09-11 01:03:37,325 :  ERROR : Exception on /api/posts/9 [GET]
+Traceback (most recent call last):
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\home\pycharmprojects\mihail\mihail_course_work_3_edition_4\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\views\api\view.py", line 27, in single_post_json_
+    post_by_pk = get_post_by_pk(posts, post_id)
+  File "C:\Users\home\PycharmProjects\Mihail\Mihail_course_work_3_edition_4\utils.py", line 72, in get_post_by_pk
+    raise ValueError
+ValueError
