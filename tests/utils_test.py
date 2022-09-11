@@ -1,18 +1,26 @@
+# Импорт необходимых библиотек и функций
 from utils import get_posts_all, get_comments_all, get_comments_by_post_id, get_posts_by_user, get_post_by_pk
 import pytest
+
+# Определение пути файла с данными
 path = "../data/posts.json"
 path_comment = "../data/comments.json"
 
 
 def test_get_posts_all():
+    """ Тест на возврат загруженного файла в формате списка
+    Тест на тип элемента списка - словарь"""
+
     result = get_posts_all(path)
     assert type(result) == list, "JSON файл не преобразован в список"
     for item in result:
         assert type(item) == dict, "item не является словарем"
-#
 
 
 def test_get_comments_all():
+    """ Тест на возврат загруженного файла в формате списка
+        Тест на тип элемента списка - словарь"""
+
     result = get_comments_all(path)
     assert type(result) == list, "JSON файл не преобразован в список"
     for item in result:
@@ -20,6 +28,9 @@ def test_get_comments_all():
 
 
 def test_get_posts_by_user():
+    """ Тест на возврат полученного реультата в формате списка
+            Тест на соответствие ключей элемента списка """
+
     result = get_posts_all(path)
     for item in result:
         user_post_list = get_posts_by_user(result, item["poster_name"])
@@ -33,8 +44,10 @@ def test_get_posts_by_user():
             assert key_list == expected_keys, "ключи не совпадают"
 
 
-# # #
 def test_get_comments_by_post_id():
+    """ Тест на возврат полученного реультата в формате списка
+                Тест на соответствие ключей элемента списка """
+
     all_comments = get_comments_all(path_comment)
     assert type(all_comments) == list, "не является словарем"
 
@@ -46,8 +59,10 @@ def test_get_comments_by_post_id():
         assert key_list == expected_keys, "ключи не совпадают"
 
 
-#
 def test_get_comments_by_post_id_error():
+    """ Тест на возврат ошибки, если введен аргумент, превышающий количство элементов списка
+         Тест на возврат ошибки, если введен аргумент не типа INT """
+
     post_data = get_posts_all(path)
     comment_data = get_comments_all(path_comment)
     comment_data_len = len(comment_data)
@@ -61,6 +76,9 @@ def test_get_comments_by_post_id_error():
 
 
 def test_get_post_by_pk():
+    """ Тест на возврат ошибки, если введен аргумент, превышающий количство элементов списка
+    """
+
     post_data = get_posts_all(path)
     data_len = len(post_data)
     for pk in range(1, data_len + 1):
@@ -69,6 +87,9 @@ def test_get_post_by_pk():
 
 
 def test_get_post_by_pk_error():
+    """ Тест на возврат ошибки, если введен аргумент не типа INT
+    """
+
     post_data = get_posts_all(path)
     data_len = len(post_data)
     pk = data_len + 1
